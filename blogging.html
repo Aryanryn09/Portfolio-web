@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ryn09 Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <!-- Update these with your own fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./public/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html#home" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#about" class="nav__link">About me</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="intro">
+      <h1 class="section__title section__title--intro">
+        <strong>Blogging website</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro"></p>
+      <img src="./public/img/blogedit (2).png" alt="" class="intro__img" />
+    </section>
+
+    <div class="portfolio-item-individual">
+      <p>
+        The blog application is a CRUD (Create, Read, Update, and Delete) web
+        application that allows users to post new blogs, view existing blogs,
+        update existing blogs, and delete blogs. The application is built using
+        the Express.js framework, which is a popular framework for building web
+        applications in Node.js. It uses MongoDB as the database to store blog
+        data.
+      </p>
+      <div>
+        <img
+          src="./public/img/blogedit (1).png"
+          alt="portfolio details"
+          style="height: 250px; widht: 500px"
+        />
+      </div>
+      <p>
+        The application has several routes that allow the user to perform CRUD
+        operations. The "create" route is used to add a new blog post to the
+        database. To create a new blog post, the user can fill out a form that
+        includes fields for the blog title, author name, and content. Once the
+        form is submitted, the data is sent to the server using the HTTP POST
+        method. The server then adds the new blog post to the MongoDB database.
+      </p>
+      <p>
+        To update an existing blog post, the user can navigate to the "update"
+        route, which retrieves the blog post data from the database and
+        pre-populates a form with the current values. The user can then update
+        the form and submit the changes using the HTTP PUT method, and the
+        server updates the blog post in the database accordingly. To delete a
+        blog post, the user can navigate to the "delete" route and specify the
+        blog post to delete.
+        <a href="https://github.com/Aryanryn09/Blog_website">
+          link to project</a
+        >
+      </p>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- replace with your own email address -->
+      <a href="mailto:aryanem09@gmail.com" class="footer__link"
+        >aryanem09@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item"></li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/AryanBansod3">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/Aryanryn09">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

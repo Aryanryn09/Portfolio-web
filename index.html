@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./public/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+          <li class="nav__item">
+            <a href="#services" class="nav__link">My Services</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#work" class="nav__link">My Work</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="intro">
+      <h1 class="section__title section__title--intro">
+        Hi, I am <strong>Aryan Bansod</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro"></p>
+      <img
+        src="./public/img/ryn09img1.png"
+        alt="a picture of Jane Smith"
+        class="intro__img"
+      />
+    </section>
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+      <h2 class="section__title section__title--services">Experiences</h2>
+      <div class="services">
+        <div class="service">
+          <h3>Full stack development</h3>
+          <p>
+            comprehensive understanding of web development technologies and
+            familiarity in both front-end and back-end development. This
+            includes proficiency in various programming languages such as HTML,
+            CSS, JavaScript, and multiple web frameworks , as well as databases,
+            servers, and hosting environments by following MERN architecture.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Programming and development</h3>
+          <p>
+            I have understanding of various programming languages and concepts
+            in programming across different domains. I can proficiently code in
+            various programming languages such as Python, Java, JavaScript,
+            C++,go and more. Additionally, I am familiar with concepts such as
+            data structures, algorithms, software design patterns, web
+            development and machine learning.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Content writting</h3>
+          <p>
+            I write blogs with a focus on open source technologies and
+            programming concepts I aim to educate and inspire readers by sharing
+            my knowledge and experiences on a variety of topics, including
+            programming languages and frameworks, software development
+            methodologies, emerging technologies and some of the intriguing
+            topics.I also write twitter threads on psychology.
+          </p>
+        </div>
+      </div>
+
+      <a href="#work" class="btn">see my work</a>
+    </section>
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+      <h2 class="section__title section__title--about">Who I am</h2>
+      <p class="section__subtitle section__subtitle--about">
+        I am a full Stack dev
+      </p>
+
+      <div class="about-me__body">
+        <p>
+          I am an undergraduate student and a full-stack developer with
+          knowledge in machine learning,various programming,containeriazation,
+          linux and technical writing, I have a strong foundation in both
+          computer science and written communication.
+        </p>
+        <p>
+          I am passionate about learning new skills and applying them, i am also
+          intrested in researching and integrating new domains. My diverse
+          skillset allows me to approach complex technical problems with both a
+          practical and communicative perspective, making me a valuable asset to
+          any team.
+        </p>
+      </div>
+
+      <img
+        src="./public/img/skills.jpg"
+        alt=""
+        class="about-me__img"
+        style="margin-top: 200px"
+      />
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+      <h2 class="section__title">My work</h2>
+      <p class="section__subtitle--work">A selection of my range of work</p>
+
+      <div class="portfolio">
+        <a href="./twitter_clone.html" class="portfolio__item">
+          <img
+            src="./public/img/portfolio-03.jpg"
+            alt=""
+            class="portfolio__img"
+          />
+          <h4>Twitter clone</h4>
+        </a>
+        <a href="./social_media_app.html" class="portfolio__item">
+          <img
+            src="./public/img/portfolio-04.jpg"
+            alt=""
+            class="portfolio__img"
+          />
+          <h4>Social Media App</h4>
+        </a>
+        <a href="./blogging.html" class="portfolio__item">
+          <img
+            src="./public/img/portfolio-07.jpg"
+            alt=""
+            class="portfolio__img"
+          />
+          <h4>Blogging website</h4>
+        </a>
+        <a href="./blogs.html" class="portfolio__item">
+          <img
+            src="./public/img/portfolio-09.jpg"
+            alt=""
+            class="portfolio__img"
+          />
+          <h4>Blogs</h4>
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <!-- replace with your own email address -->
+      <a href="mailto:aryanem09@gmail.com" class="footer__link"
+        >aryanem09@gmail.com</a
+      >
+      <ul class="social-list">
+        <li class="social-list__item"></li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://twitter.com/AryanBansod3">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social-list__item">
+          <a class="social-list__link" href="https://github.com/Aryanryn09">
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
